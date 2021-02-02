@@ -1,0 +1,17 @@
+************************************************************************
+*                                                                      *
+*      Simulate imino 2D spectra using chemical shift predictors.      *
+*      Only support prediction for RNA groups within A-form helix.     *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+Follow steps below to simulate imino spectrum
+1. Update the input file, e.g. <tP5abc.seq>. Please provide the secondary
+   structure in bracket-dot line. Note that this tool only supports canonical 
+   base pairs (Watson-Crick and GU wobble).
+2. Run genimino.py to generate the predicted imino chemical shift table.
+   The script will give a demonstration.
+3. Under `sim.imino` folder, run clean.sh and then, run mkucsf.py to create a
+   simulated imino 2D spectrum.
+
