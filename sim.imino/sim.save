@@ -1,0 +1,291 @@
+<sparky save file>
+<version 3.113>
+<user>
+set mode 0
+set saveprompt 1
+set saveinterval 0
+set resizeViews 0
+set keytimeout 3000
+set cachesize 4
+set contourgraying 1
+default print command lpr
+default print file 
+default print options 2 27 1.000000 1.000000
+<end user>
+<spectrum>
+name sim
+pathname /home/avalon007/tools/predictor/csPredictor/sim.imino/sim.ucsf
+dimension 2
+shift 0.000000 0.000000
+points 512 1024
+assignMultiAxisGuess 0
+assignGuessThreshold 0.000000
+assignRelation 1 4
+assignRelation 2 4
+assignRange 1 0.000000
+assignRange 2 0.000000
+assignFormat %a1
+listTool sortBy label
+listTool nameType assignment
+listTool sortAxis w1
+listTool showFlags frequency
+integrate.overlapped_sep 300.000 30.000
+integrate.methods 1 0 1
+integrate.allow_motion 1
+integrate.adjust_linewidths 1
+integrate.motion_range 0.100 0.010
+integrate.min_linewidth 0.0329 0.0033
+integrate.max_linewidth 3.2895 0.3333
+integrate.fit_baseline 0
+integrate.subtract_peaks 0
+integrate.contoured_data 1
+integrate.rectangle_data 0
+integrate.maxiterations 10000
+integrate.tolerance 0.001000
+peak.pick 0.000000 0.000000 0.000000 0.000000 0
+peak.pick-minimum-linewidth 0.000000 0.000000
+peak.pick-minimum-dropoff 0.00
+noise.sigma 1.000000
+ornament.label.size 13.653333
+ornament.line.size 0.392533
+ornament.peak.size 4.266667
+ornament.grid.size 0.400000
+ornament.peakgroup.size 0.802133
+ornament.selectsize 0.500000
+ornament.pointersize 0.500000
+ornament.lineendsize 0.500000
+<attached data>
+<end attached data>
+<view>
+name sim
+precision 0
+precision_by_units 0 0 0
+viewmode 0
+show 1 label line peak grid peakgroup
+axistype 2
+flags crosshair crosshair2 contourscale
+contour.pos 17 24 1.392659 0.000000 red
+contour.neg 1 -5 1.400000 0.000000 green
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<end view>
+<ornament>
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 1
+pos 148.940 13.480
+height 0.000 100.000
+rs |G|131| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 148.940 13.480
+label G131
+xy 148.940,13.445 13.640,147.940
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 2
+pos 148.620 13.710
+height 0.000 100.000
+rs |G|134| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 148.620 13.710
+label G134
+xy 148.620,13.675 13.870,147.620
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 3
+pos 163.400 14.580
+height 0.000 100.000
+rs |U|142| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 163.400 14.580
+label U142
+xy 163.400,14.545 14.740,162.400
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 4
+pos 147.920 13.060
+height 0.000 100.000
+rs |G|144| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 147.920 13.060
+label G144
+xy 147.920,13.025 13.220,146.920
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 5
+pos 146.560 12.210
+height 0.000 100.000
+rs |G|160| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 146.560 12.210
+label G160
+xy 146.560,12.175 12.370,145.560
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 6
+pos 158.150 11.960
+height 0.000 100.000
+rs |U|167| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 158.150 11.960
+label U167
+xy 158.150,11.925 12.120,157.150
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 7
+pos 143.490 11.110
+height 0.000 100.000
+rs |G|174| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 143.490 11.110
+label G174
+xy 143.490,11.075 11.270,142.490
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 8
+pos 147.560 12.920
+height 0.000 100.000
+rs |G|175| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 147.560 12.920
+label G175
+xy 147.560,12.885 13.080,146.560
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 9
+pos 148.880 13.620
+height 0.000 100.000
+rs |G|176| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 148.880 13.620
+label G176
+xy 148.880,13.585 13.780,147.880
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 10
+pos 148.740 13.450
+height 0.000 100.000
+rs |G|181| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 148.740 13.450
+label G181
+xy 148.740,13.415 13.610,147.740
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 11
+pos 162.350 13.690
+height 0.000 100.000
+rs |U|190| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 162.350 13.690
+label U190
+xy 162.350,13.655 13.850,161.350
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 12
+pos 147.970 12.750
+height 0.000 100.000
+rs |G|191| |?|?|
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 2
+pos 147.970 12.750
+label G191
+xy 147.970,12.715 12.910,146.970
+]
+<end ornament>
+<end spectrum>

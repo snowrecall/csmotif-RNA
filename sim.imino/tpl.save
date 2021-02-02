@@ -1,0 +1,99 @@
+<sparky save file>
+<version 3.113>
+<user>
+set mode 0
+set saveprompt 1
+set saveinterval 0
+set resizeViews 0
+set keytimeout 3000
+set cachesize 4
+set contourgraying 1
+default print command lpr
+default print file 
+default print options 2 27 1.000000 1.000000
+<end user>
+<spectrum>
+name sim
+pathname /home/avalon007/tools/predictor/csPredictor/sim.imino/sim.ucsf
+dimension 2
+shift 0.000000 0.000000
+points 512 1024
+assignMultiAxisGuess 0
+assignGuessThreshold 0.000000
+assignRelation 1 4 
+assignRelation 2 4 
+assignRange 1 0.000000
+assignRange 2 0.000000
+assignFormat %a1
+listTool sortBy label
+listTool nameType assignment
+listTool sortAxis w1
+listTool showFlags frequency
+integrate.overlapped_sep 300.000 30.000
+integrate.methods 1 0 1
+integrate.allow_motion 1
+integrate.adjust_linewidths 1
+integrate.motion_range 0.100 0.010
+integrate.min_linewidth 0.0329 0.0033
+integrate.max_linewidth 3.2895 0.3333
+integrate.fit_baseline 0
+integrate.subtract_peaks 0
+integrate.contoured_data 1
+integrate.rectangle_data 0
+integrate.maxiterations 10000
+integrate.tolerance 0.001000
+peak.pick 0.000000 0.000000 0.000000 0.000000 0
+peak.pick-minimum-linewidth 0.000000 0.000000
+peak.pick-minimum-dropoff 0.00
+noise.sigma 1.000000
+ornament.label.size 13.653333
+ornament.line.size 0.392533
+ornament.peak.size 4.266667
+ornament.grid.size 0.400000
+ornament.peakgroup.size 0.802133
+ornament.selectsize 0.500000
+ornament.pointersize 0.500000
+ornament.lineendsize 0.500000
+<attached data>
+<end attached data>
+<view>
+name sim
+precision 0
+precision_by_units 0 0 0
+viewmode 0
+show 1 label line peak grid peakgroup
+axistype 2
+flags crosshair crosshair2 contourscale
+contour.pos 17 24 1.392659 0.000000 red
+contour.neg 1 -5 1.400000 0.000000 green
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 1 23
+size 1815 1075
+offset -0.197837 -87.885201
+scale 1.000000 0.720000
+zoom 2.103718
+flags 0
+<end params>
+<end view>
+<ornament>
+<end ornament>
+<end spectrum>
