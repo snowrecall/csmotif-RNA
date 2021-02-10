@@ -1,12 +1,11 @@
-#!/usr/bin/python
-from cstab import *
 from glob import glob
-from common.base import range2list
+from base import range2list
 
 '''
 Fragment RNA Motif according to secondary structure
 Supported motif types: triplet , penta, base pair
 '''
+tp = {'19':['GC','CG'],'20':['UA','AU'],'28':['GU','UG']}
 
 #===============================================================================
 # find base pairs for each secondary structure
