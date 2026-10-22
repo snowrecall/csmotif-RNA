@@ -1,5 +1,5 @@
 from glob import glob
-from base import range2list
+from .base import range2list
 
 '''
 Fragment RNA Motif according to secondary structure
